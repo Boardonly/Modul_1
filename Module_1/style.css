@@ -1,0 +1,155 @@
+body{	margin:0;}
+
+*{ box-sizing: border-box;}
+
+.wrapper{ 
+	max-width: 1600px;
+	margin: 0 auto;	
+}
+.m_width{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.text{
+	font-family: 'Roboto', sans-serif;
+	
+}
+.h1{
+	color: #f4f4f4;
+	font-size: 64px;
+	font-weight: 300;
+	line-height: 60px;
+	letter-spacing: 2.56px;
+
+}
+.h1 span{
+	font-weight: 700;
+}
+.white{
+	color: #f4f4f4;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 32px;
+}
+
+.block_first{
+	width: 100%;
+	/*height: 900px;*/
+	background-color: #2ecc71;
+	background-image: url(images/bg-1.png);
+	background-size: cover;
+
+}
+
+.header{
+	display: inline-block;
+	width: 100%;
+	max-width: 1170px;
+	text-align: center;
+	height: 50px;
+	margin-top: 18px;
+	
+}
+.logo{
+	display: inline-block;
+	float: left;
+
+}
+.menu{
+	display: inline-block;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.72px;
+	color: white;
+	
+}
+.menu_1{
+	margin-left: 54px;
+	padding: 13px 36px 13px 36px;
+}
+.menu_1:last-child{
+	border-radius: 50px;
+	background-color: white;
+	color: #2ecc71;
+}
+.container{
+	display: block;
+	width: 100%;
+	vertical-align: top;
+}
+.container_left{
+	display: inline-block;
+	margin-top: 197px;
+	width: 55%;
+	vertical-align: top;
+
+
+}
+
+.app_icon{
+	width: 111px;
+	height: 111px;
+}
+
+.container_right{
+	display: inline-block;
+	width: 50%;
+	max-width: 404px;
+	margin-top: 104px;
+	vertical-align: top;
+}
+
+.phone-home{
+	width: 100%;
+	bottom: 0;
+}
+
+.iconbutton{
+	display: inline-block;
+	margin-top: 61px;
+	margin-bottom: 179px;
+}
+
+.container2_left{
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+.phone1{
+	position: absolute;
+	z-index: 2;
+	margin-top: 100px;
+	margin-left: 0px;
+}
+.circle{
+	position: relative;
+	z-index: 1;
+	margin-top: 205px;
+	margin-left: 110px;
+}
+
+.container2_right{
+	width: 48%; 
+	vertical-align: top; 
+	float: right; 
+	margin-top: 330px; 
+}
+
+.h2{
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 60px;
+	color: #5a5a5a;
+	letter-spacing: 1.44px;
+}
+
+.h2 span{
+	color: #0fd41b;
+}
+
+.gray{
+	color: #5a5a5a;
+}
